@@ -1,7 +1,7 @@
 # laravelBlog
 Blog Usando Laravel
 
-Requisitos:
+Utilizando:
 - PHP 8
 - MySQL 8
 - Laravel 8
