@@ -11,9 +11,8 @@ class UserController extends Controller
 {
     public function show (User $author)
     {
-        return view('posts', [
-            'posts' => $author->posts,
-            'categories' => Category::all()
+        return view('posts.index', [
+            'posts' => $author->posts
         ]);
     }
 }
