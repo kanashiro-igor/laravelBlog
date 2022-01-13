@@ -1,5 +1,5 @@
 # laravelBlog
-Blog Usando Laravel
+Blog Usando Laravel 8
 
 Utilizando:
 - PHP 8
