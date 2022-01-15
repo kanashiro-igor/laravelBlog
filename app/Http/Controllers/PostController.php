@@ -12,7 +12,9 @@ class PostController extends Controller
     public function index()
     {
         return view('posts.index', [
-            'posts' => Post::latest()->filter(request($this->filters))->get()
+            'posts' => Post::latest()->filter(
+                request($this->filters)
+            )->paginate(6)->withQueryString()
         ]);
     }
 
